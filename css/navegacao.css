@@ -1,0 +1,23 @@
+.header-menu {
+  background: #000000;
+}
+
+.header-menu ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-menu ul li {
+  color: #ffffff;
+  line-height: 60px;
+  padding: 0 15px;
+  margin: 0 45px;
+  text-transform: uppercase;
+}
+
+.header-menu li:hover {
+  cursor: pointer;
+  background: #ff4655;
+}
