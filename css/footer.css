@@ -40,3 +40,75 @@ i.far.fa-envelope {
 .newsletter-form button:hover {
   cursor: pointer;
 }
+.rodape-conteudo {
+  margin: 70px 90px;
+}
+
+.coluna-4 ul {
+  display: flex;
+}
+
+.coluna-4 i {
+  margin: 10px 30px 10px 0px;
+  font-size: 30px;
+  color: #ff4655;
+}
+
+.rodape-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  margin: 0 70px;
+}
+
+.rodape-container p {
+  text-transform: uppercase;
+}
+
+.rodape-container li {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.rodape-container a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.rodape-container a:hover {
+  text-decoration: underline;
+}
+
+.rodape-container li a:hover {
+  cursor: pointer;
+}
+
+.container-formas-seguranca {
+  display: flex;
+}
+
+.rodape-container-pagamentos,
+.rodape-container-seguranca {
+  margin: 40px 70px;
+}
+
+.rodape-container-pagamentos p,
+.rodape-container-seguranca p {
+  text-transform: uppercase;
+}
+
+.rodape-container-pagamentos ul,
+.rodape-container-seguranca ul {
+  display: flex;
+}
+
+.rodape-container-pagamentos i,
+.rodape-container-seguranca i {
+  font-size: 30px;
+  color: #ff4655;
+  margin: 10px 20px 0 0;
+}
+
+.copyright address {
+  display: flex;
+  justify-content: center;
+}

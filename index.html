@@ -60,15 +60,15 @@
 		</ul>
 	</div>
 	<main>
-		<section class="section">
-			<div class="section-products">
+		<section class="section-produtos">
+			<div class="section-produtos-container">
 				<ul>
 					<li></li>
 					<li></li>
 					<li></li>
 					<li></li>
 				</ul>
-				
+
 			</div>
 		</section>
 		<!-- bloco estático falando sobre a loja-->
@@ -92,8 +92,71 @@
 			</div>
 		</div>
 		<!--conteudo do rodape-->
-		
-		<!--assinatura-->
+		<div id="rodape">
+			<div class="rodape-conteudo">
+				<div class="rodape-container">
+					<div class="coluna-1">
+						<p>Sobre nós</p>
+						<ul>
+							<li><a href="#">Sobre nós</a></li>
+							<li><a href="#">Política de Frete</a></li>
+							<li><a href="#">Política de Privacidade</a></li>
+							<li><a href="#">Termos e Condições</a></li>
+							<li><a href="#">Produção</a></li>
+						</ul>
+					</div>
+					<div class="coluna-2">
+						<p>Minha conta</p>
+						<ul>
+							<li><a href="#">Meu Cadastro</a></li>
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Meu carrinho</a></li>
+							<li><a href="#">Favoritos</a></li>
+						</ul>
+					</div>
+					<div class="coluna-3">
+						<p>Ajuda</p>
+						<ul>
+							<li><a href="#">Termos de Busca</a></li>
+							<li><a href="#">Como comprar</a></li>
+							<li><a href="#">Mapa do site</a></li>
+						</ul>
+					</div>
+					<div class="coluna-4">
+						<p>Siga-nos</p>
+						<ul>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+							<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="container-formas-seguranca">
+					<div class="rodape-container-pagamentos">
+						<p>Formas de Pagamento</p>
+							<ul>
+								<li><i class="fab fa-cc-visa"></i></li>
+								<li><i class="fab fa-cc-paypal"></i></li>
+								<li><i class="fab fa-cc-mastercard"></i></a></li>
+								<li><i class="fab fa-cc-jcb"></i></a></li>
+							</ul>
+					</div>
+					<div class="rodape-container-seguranca">
+						<p>Selos de Segurança</p>
+							<ul>
+								<li><i class="fas fa-shield-alt"></i></li>
+								<li><i class="fas fa-lock"></i></li>
+								<li><i class="fas fa-key"></i></li>
+							</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+			<!--assinatura-->
+		<div class="copyright">
+			<address>© 2021 Valorant Fabiola Spredemann. Todos os direitos reservados.</address>
+		</div>
 	</footer>
 	<script src="js/jquery-3.5.1.min.js"></script>
 	<script src="lib/owlCarousel/dist/owl.carousel.min.js"></script>
@@ -104,6 +167,7 @@
 			loop: true,
 			margin: 5,
 			autoplay: true,
+			nav: true,
 			autoplayTimeout: 1000,
 			autoplayHoverPause: true
 		});
