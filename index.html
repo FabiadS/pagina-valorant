@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="lib/owlCarousel/dist/assets/owl.theme.default.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" href="/css/navegacao.css">
+	<link rel="stylesheet" href="/css/footer.css">
 	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<link rel="shortcut icon" href="/images/favicon.ico">
 </head>
@@ -59,13 +60,39 @@
 		</ul>
 	</div>
 	<main>
-		<!--div de produtos (carrosel e grade)-->
+		<section class="section">
+			<div class="section-products">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				
+			</div>
+		</section>
 		<!-- bloco estático falando sobre a loja-->
 	</main>
 
 	<footer>
 		<!-- newsletter-->
+		<div class="newsletter">
+			<div class="footer-bar">
+				<div class="icon-newsletter">
+					<i class="far fa-envelope"></i>
+				</div>
+				<div class="texto">
+					<span>Cadastre-se e seja o primeiro a receber nossas novidades!</span><br>
+					<span>Você também irá concorrer a diversos prêmios.</span>
+				</div>
+				<div class="newsletter-form">
+					<input type="text">
+					<button>Assinar</button>
+				</div>
+			</div>
+		</div>
 		<!--conteudo do rodape-->
+		
 		<!--assinatura-->
 	</footer>
 	<script src="js/jquery-3.5.1.min.js"></script>
@@ -75,7 +102,7 @@
 		owl.owlCarousel({
 			items: 2,
 			loop: true,
-			margin: 10,
+			margin: 5,
 			autoplay: true,
 			autoplayTimeout: 1000,
 			autoplayHoverPause: true
