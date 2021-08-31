@@ -1,0 +1,90 @@
+.destaques p,
+.mapas p,
+.lancamentos p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-size: 30px;
+  color: #ff4655;
+}
+
+section.section-produtos {
+  margin: 0 20px;
+}
+
+.section-produtos-container {
+  padding: 30px;
+}
+
+img.img-produtos {
+  transform: scale(0.8);
+  padding: 30px 10px;
+}
+
+.produtos {
+  background: #000000;
+  height: 20rem;
+}
+
+.produtos p {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+}
+
+.points {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.points img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+p.titulo {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ff4655;
+}
+
+p.preco {
+  color: #ffffff;
+}
+
+.produtos li:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.section-about-valorant-content {
+  margin: 56px;
+}
+
+.section-about-valorant-content h1 {
+  font-size: 8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+
+.section-about-valorant-content h2 {
+  text-transform: uppercase;
+  color: #383e3a;
+  font-size: 1.5rem;
+  padding: 60px;
+}
+
+.section-about-valorant-content p {
+  line-height: 2rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 60px;
+}
+
+.section-about-valorant-content iframe {
+  margin-left: 60px;
+}

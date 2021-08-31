@@ -10,6 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" href="/css/navegacao.css">
 	<link rel="stylesheet" href="/css/footer.css">
+	<link rel="stylesheet" href="/css/produtos.css">
+	<link rel="stylesheet" href="/css/main.css">
 	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<link rel="shortcut icon" href="/images/favicon.ico">
 </head>
@@ -33,12 +35,21 @@
 							<button class="login-button" type="submit">Jogue Agora</button>
 						</div>
 					</div>
-					<div id="minicart-header">
-					<div class="minicart-icon">
-							<a href="#"><i class="fas fa-shopping-cart"></i></a>
+					<div id="minicart-header" class="active">
+						<div class="minicart-content">
+							<div class="minicart-icon">
+								<a href="#"><i class="fas fa-shopping-cart"></i></a>
+							</div>
+							<!--<div class="minicart-wrapper" >
+								<h2>Produtos do Carrinho</h2>
+								<img src="/images/Death_Wish_Sheriff.png" alt="Produto do carrinho">
+								<div class="valor-total">
+									<img src="/images/Valorant_Points.png" alt="">
+									<p>1700</p>
+								</div>
+							</div>-->
+						</div>
 					</div>
-						<div class="minicart-content"></div>
-					  </div>
 				 </div>
 			</div>
 		</div>
@@ -60,20 +71,127 @@
 		</ul>
 	</div>
 	<main>
+		<div class="destaques">
+			<p>Destaques</p>
+		</div>
 		<section class="section-produtos">
 			<div class="section-produtos-container">
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+				<ul class="section-carossel-produtos owl-theme owl-carousel">
+					<div class="produtos">
+						<li><img src="/images/Game_Over_Sheriff.png" alt="Skin arma" max-width="30px" class="img-produtos"></li>
+						<p class="titulo">Game Over Scheriff</p>
+						<div class="points">
+							<img src="/images/Valorant_Points.png" alt="">
+							<p class="preco">1275</p>
+						</div>
+						
+					</div>
+					<div class="produtos">
+						<li><img src="/images/Peacekeeper_Sheriff.png" alt="Skin arma" max-width="30px" class="img-produtos"></li>
+						<p class="titulo">Peacekeeper Sheriff</p>
+						<div class="points">
+							<img src="/images/Valorant_Points.png" alt="">
+							<p class="preco">1200</p>
+						</div>
+						
+					</div>
+					<div class="produtos">
+						<li><img src="/images/Surge_Sheriff.png" alt="Skin arma" max-width="30px" class="img-produtos"></li>
+						<p class="titulo">Surge Sheriff</p>
+						<div class="points">
+							<img src="/images/Valorant_Points.png" alt="">
+							<p class="preco">1350</p>
+						</div>
+					</div>
+					<div class="produtos">
+						<li><img src="/images/Death_Wish_Sheriff.png" alt="Skin arma" max-width="30px" class="img-produtos"></li>
+						<p class="titulo">Death Wish Sheriff</p>
+						<div class="points">
+							<img src="/images/Valorant_Points.png" alt="">
+							<p class="preco">1700</p>
+						</div>
+					</div>
+					<div class="produtos">
+						<li><img src="/images/Protektor_Sheriff.png" alt="Skin arma" max-width="30px" class="img-produtos"></li>
+						<p class="titulo">Protektor Sheriff</p>
+						<div class="points">
+							<img src="/images/Valorant_Points.png" alt="">
+							<p class="preco">1800</p>
+						</div>
+					</div>
 				</ul>
-
 			</div>
 		</section>
-		<!-- bloco estático falando sobre a loja-->
+		<div class="lancamentos">
+			<p>Lançamentos</p>
+		</div>
+		<section class="section-produtos">
+			<div class="section-produtos-container">
+				<ul class="section-carossel-produtos owl-theme owl-carousel">
+					<div class="produtos">
+						<li><img src="/images/Hivemind_Sword.png" alt="Skin arma" max-width="30px" class="img-produtos"></li>
+						<p class="titulo">Hivemind Sword</p>
+						<div class="points">
+							<img src="/images/Valorant_Points.png" alt="">
+							<p class="preco">1230</p>
+						</div>
+						
+					</div>
+					<div class="produtos">
+						<li><img src="/images/Kingdom_Knife.png" alt="Skin arma" max-width="30px" class="img-produtos"></li>
+						<p class="titulo">Kingdom Knife</p>
+						<div class="points">
+							<img src="/images/Valorant_Points.png" alt="">
+							<p class="preco">1580</p>
+						</div>
+						
+					</div>
+					<div class="produtos">
+						<li><img src="/images/Outpost_Melee.png" alt="Skin arma" max-width="30px" class="img-produtos"></li>
+						<p class="titulo">Outpost Melee</p>
+						<div class="points">
+							<img src="/images/Valorant_Points.png" alt="">
+							<p class="preco">1750</p>
+						</div>
+					</div>
+					<div class="produtos">
+						<li><img src="/images/skin_arma4.png" alt="Skin arma" max-width="30px" class="img-produtos"></li>
+						<p class="titulo">Smite Knife</p>
+						<div class="points">
+							<img src="/images/Valorant_Points.png" alt="">
+							<p class="preco">1560</p>
+						</div>
+					</div>
+					<div class="produtos">
+						<li><img src="/images/Prism_Knife.png" alt="Skin arma" max-width="30px" class="img-produtos"></li>
+						<p class="titulo">Prism Knife</p>
+						<div class="points">
+							<img src="/images/Valorant_Points.png" alt="">
+							<p class="preco">1600</p>
+						</div>
+					</div>
+				</ul>
+			</div>
+		</section>
+		<section class="section-about-valorant">
+			<div class="section-about-valorant-content">
+				<h1>Nós somos<br> Valorant</h1>
+				<div class="section-about-valorant-text">
+					<h2>Desafie seus Limites</h2>
+					<p>
+						Misture o seu estilo e experiência em um cenário global e competitivo. <br>
+						Você terá 13 rodadas para atacar e defender com disparos certeiros e <br>
+						habilidades táticas. Com apenas uma vida por rodada, você deve pensar <br>
+						mais rápido que o oponente se quiser sobreviver. <br>
+						Encare inimigos nos modos Competitivo e Sem Ranque, 
+						além<br> da Disputa da Spike e do Mata-Mata!
+					</p>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/JxyAt2d4W4Q" title="YouTube video player" frameborder="0" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
 	</main>
-
 	<footer>
 		<!-- newsletter-->
 		<div class="newsletter">
@@ -161,15 +279,16 @@
 	<script src="js/jquery-3.5.1.min.js"></script>
 	<script src="lib/owlCarousel/dist/owl.carousel.min.js"></script>
 	<script type="text/javascript">
-		var owl = $('.owl-carousel');
+		var owl = $('.home-banner-content');
 		owl.owlCarousel({
-			items: 2,
+			items: 1,
 			loop: true,
 			margin: 5,
 			autoplay: true,
 			nav: true,
 			autoplayTimeout: 1000,
-			autoplayHoverPause: true
+			autoplayHoverPause: true,
+			dots: false
 		});
 		$('.play').on('click', function () {
 			owl.trigger('play.owl.autoplay', [1000])
@@ -177,6 +296,47 @@
 		$('.stop').on('click', function () {
 			owl.trigger('stop.owl.autoplay')
 		})
+	</script>
+	<script type="text/javascript">
+		var owl1 = $('.section-carossel-produtos')
+		owl1.owlCarousel({
+		items: 4,
+    loop:true,
+    margin:10,
+    nav:true,
+		dots: false,
+   responsive:{
+        0:{
+            items:4
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items: 4
+        }
+    }
+	}	)
+	</script>
+	<script>
+		var owl = $('.home-mapas-content');
+		owl.owlCarousel({
+		items: 2,
+    loop:true,
+    margin:10,
+    nav:true,
+   responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items: 2
+        }
+    }
+	}	)
 	</script>
 </body>
 

@@ -21,3 +21,58 @@
   cursor: pointer;
   background: #ff4655;
 }
+
+.owl-nav {
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.owl-prev,
+.owl-next {
+  width: 55px;
+  height: 55px;
+  font-size: 70px !important;
+  border-radius: 8px;
+  margin: 5px;
+  margin-right: 40px;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+  background: #000000 !important;
+}
+.owl-prev span,
+.owl-next span {
+  position: relative;
+  top: -15px;
+  color: #ffffff;
+}
+
+ul.home-banner-content.owl-carousel.owl-theme.owl-loaded.owl-drag {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-carossel-produtos .owl-nav {
+  top: 120px;
+}
+
+button.owl-prev,
+button.owl-next {
+  background: #ff4655 !important;
+}
+
+.section-carossel-produtos button.owl-prev {
+  position: relative;
+  right: 40px;
+}
+
+.section-carossel-produtos button.owl-next {
+  position: relative;
+  left: 40px;
+}
