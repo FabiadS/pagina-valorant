@@ -43,6 +43,7 @@ i.far.fa-envelope {
 
 .newsletter-form button:hover {
   cursor: pointer;
+  color: #000000;
 }
 .rodape-conteudo {
   margin: 70px 90px;
@@ -118,4 +119,55 @@ i.far.fa-envelope {
 .copyright address {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 468px) {
+  .footer-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rodape-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .rodape-conteudo {
+    margin: 20px 20px;
+  }
+  .rodape-container p {
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  .coluna-1,
+  .coluna-2,
+  .coluna-3,
+  .coluna-4,
+  .coluna-5 {
+    margin-bottom: 10px;
+  }
+
+  .container-formas-seguranca {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rodape-container-pagamentos,
+  .rodape-container-seguranca {
+    margin: 0;
+  }
+
+  .rodape-container-pagamentos ul {
+    margin-bottom: 10px;
+  }
+
+  .copyright {
+    margin: 0 2rem;
+  }
 }

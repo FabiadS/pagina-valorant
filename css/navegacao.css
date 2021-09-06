@@ -59,7 +59,7 @@ ul.home-banner-content.owl-carousel.owl-theme.owl-loaded.owl-drag {
 }
 
 .section-carossel-produtos .owl-nav {
-  top: 120px;
+  top: 160px;
 }
 
 button.owl-prev,
@@ -75,4 +75,7 @@ button.owl-next {
 .section-carossel-produtos button.owl-next {
   position: relative;
   left: 40px;
+}
+
+@media screen and (max-width: 468px) {
 }

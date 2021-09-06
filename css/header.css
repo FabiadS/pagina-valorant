@@ -1,0 +1,289 @@
+ul {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'FF Mark W05', Arial, sans-serif;
+  background: #ece8e1;
+}
+
+#top-header-background {
+  background-color: #000000;
+  line-height: 33px;
+  border-bottom: 6px solid #ff4655;
+}
+
+.header-content {
+  display: grid;
+  grid-template-columns: 20% 60% 10% 10%;
+  width: 950pt;
+  margin: 0 auto;
+}
+
+#logo img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+div#header-search {
+  position: relative;
+}
+
+div#header-search,
+.login-content,
+div.minicart-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header-search-form input:focus {
+  outline: 0;
+}
+
+.minicart-icon a,
+.menu-hamburguer a {
+  color: #ff4655;
+}
+
+.minicart-icon a:hover,
+.menu-hamburguer a:hover {
+  color: #ffffff;
+}
+
+#minicart-wrapper {
+  display: none;
+}
+
+.fas span {
+  color: #ffffff;
+}
+
+div#minicart-wrapper {
+  position: absolute;
+  top: 5rem;
+  right: 3rem;
+  background: #ffffff;
+  z-index: 999;
+  border-radius: 10px;
+}
+
+div#minicart-wrapper::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  display: block;
+  border-right: 6px solid;
+  border-left: 6px solid;
+  border-bottom: 6px solid #ffffff;
+  border-top: 0;
+  top: -6px;
+  left: 95%;
+  margin-left: -3px;
+}
+
+.menu-hamburguer a {
+  display: none;
+}
+
+.quantidade-produtos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantidade-produtos-points,
+.quantidade-produtos-item,
+.quantidade-produtos img {
+  color: #000000;
+}
+
+.quantidade-produtos-item {
+  width: 100px;
+  padding: 10px;
+}
+
+.quantidade-produtos-points {
+  margin-right: 5px;
+  margin-left: 40px;
+}
+
+.quantidade-produtos img,
+.informacao-produto img,
+.valor-total-produtos img {
+  width: 15px;
+  height: 15px;
+  background: #000000;
+  border-radius: 10px;
+}
+
+hr {
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 0;
+  border-top: 1px solid #ff4655;
+}
+
+img.img-produto-minicart {
+  width: 70px;
+}
+.informacao-produto {
+  line-height: 20px;
+}
+.informacao-produto ul {
+  display: block;
+  width: 12rem;
+}
+
+.informacao-produto a {
+  color: #000000;
+  font-size: 12px;
+}
+
+.informacao-produto-points {
+  display: flex;
+  align-items: center;
+}
+
+.produto-preco {
+  color: #000000;
+}
+
+.produtos-minicart {
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.minicart-settings-icons {
+  margin-top: 2rem;
+}
+
+.minicart-settings-icons ul {
+  display: flex;
+}
+.minicart-settings-icons a {
+  padding-right: 10px;
+  color: #000000;
+}
+
+.minicart-settings-icons a:hover {
+  color: #ff4655;
+}
+
+.minicart-finalizar-compra {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.minicart-finalizar-compra button {
+  border: none;
+  border-radius: 10px;
+  background: #ff4655;
+  line-height: 40px;
+  width: 20rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.minicart-finalizar-compra button:hover {
+  color: #000000;
+  cursor: pointer;
+}
+
+input#search {
+  border: none;
+  border-radius: 60px 0 0 60px;
+  line-height: 15px;
+  height: 49px;
+  width: 447px;
+}
+
+.search-button {
+  width: 100px;
+  height: 49px;
+  border-radius: 0 60px 60px 0;
+  border: none;
+  background: #ff4655;
+  color: white;
+  position: absolute;
+  left: 70%;
+  bottom: 28%;
+}
+
+.search-button:hover {
+  cursor: pointer;
+  color: #000000;
+}
+
+button.login-button {
+  background: #ff4655;
+  border-radius: 1px;
+  line-height: 40px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+button.login-button:hover {
+  cursor: pointer;
+  color: #000000;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+@media screen and (max-width: 468px) {
+  .header-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  div#logo {
+    max-width: 20%;
+  }
+  #logo img {
+    margin: 0 5px;
+  }
+  input#search,
+  button.login-button,
+  .search-button {
+    display: none;
+  }
+
+  i.fas.fa-bars {
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+  }
+
+  .header-search-form:focus {
+    outline: none;
+  }
+
+  nav.header-menu {
+    display: none;
+  }
+  .menu-hamburguer a {
+    display: flex;
+    margin-left: 1rem;
+    text-decoration: none;
+  }
+}
